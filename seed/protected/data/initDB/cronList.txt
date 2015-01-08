@@ -1,0 +1,14 @@
+=====================以下为crontab格式内容=====================
+*/5 * * * * /usr/local/php5/bin/php /data/www/seed/trunk/seed/protected/commands/RunCron.php PushQueueSend start
+0 4 * * * /usr/local/php5/bin/php /data/www/seed/trunk/seed/protected/commands/RunCron.php BackupSeed start
+15 4 * * * /usr/local/php5/bin/php /data/www/seed/trunk/seed/protected/commands/RunCron.php BackupMission start
+30 4 * * * /usr/local/php5/bin/php /data/www/seed/trunk/seed/protected/commands/RunCron.php BackupMail start
+
+
+
+======================以下为各个cron的说明======================
+1)消息推送处理
+2)备份并清理已经删除的种子数据
+3)备份并清理已经放弃或者完成的随机任务
+4)备份并清理已经删除的邮件数据
+

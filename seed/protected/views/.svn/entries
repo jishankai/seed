@@ -1,0 +1,88 @@
+10
+
+dir
+6355
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed/src/server/trunk/seed/protected/views
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed
+
+
+
+2012-09-19T01:34:55.246175Z
+6314
+ji.shankai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1a87db60-bfce-4acf-bc5d-6f2d8248f190
+
+app
+dir
+
+seed
+dir
+
+mission
+dir
+
+items
+dir
+
+event
+dir
+
+mail
+dir
+
+error
+dir
+
+player
+dir
+
+guide
+dir
+
+layouts
+dir
+
+garden
+dir
+
+share
+dir
+
+achieve
+dir
+
+site
+dir
+
+globalMessage
+dir
+
+friend
+dir
+
+login
+dir
+
+shop
+dir
+
+catalog
+dir
+
+map
+dir
+

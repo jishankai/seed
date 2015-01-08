@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0;">
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+<meta http-equiv="expires" content="0" />
+
+<style>
+.a_frame03 {
+position: relative;
+width: 476px;
+height: 277px;
+background: url(abg_02.png) center no-repeat;
+margin: 0 auto;
+}
+
+.a_frame03 b {
+display: block;
+float: left;
+width: 350px;
+margin: 60px 0 0 70px;
+font-size: 24px;
+color: #2A6777;
+font-weight: bold;
+}
+
+.a_frame03 i {
+display: block;
+float: left;
+margin: 0 0 0 120px;
+font-size: 26px;
+color: #2A6777;
+font-weight: bold;
+}
+
+.a_frame03 .b_btn_08 {
+left: 40px;
+}
+
+.a_frame03 .b_btn_07, .a_frame03 .b_btn_08 {
+position: absolute;
+width: 130px;
+height: 50px;
+bottom: 5px;
+}
+
+.b_btn_08.a_btn_01 {
+font-size: 28px;
+}
+
+.b_btn_08 {
+line-height: 59px;
+text-align: center;
+display: inline-block;
+border: 4px solid #FF7860;
+-webkit-box-shadow: 1px 1px 0 4px #c64b00,-1px -1px 0 4px #295604;
+color: #992C01;
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FDECCF),color-stop(100%,#E6D2B0));
+}
+
+.b_btn_08, .b_btn_07 {
+width: 196px;
+height: 59px;
+line-height: 59px;
+-webkit-border-radius: 20px 20px 35px 35px;
+text-shadow: 1px 1px 0 white,-1px -1px 0 white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.b_btn_07 {
+text-align: center;
+display: inline-block;
+border: 4px solid #23BA00;
+-webkit-box-shadow: 1px 1px 0 4px #295604,-1px -1px 0 4px #295604;
+color: #295604;
+background: -webkit-gradient(linear,left bottom,left top,color-stop(0%,#CAE3AC),color-stop(100%,#EFF8DB));
+}
+
+.a_frame03 .b_btn_07, .a_frame03 .b_btn_08 {
+position: absolute;
+width: 130px;
+height: 50px;
+bottom: 5px;
+text-decoration:none ;
+}
+
+.a_frame03 .b_btn_08 {
+left: 60px;
+}
+
+.a_frame03 .b_btn_07 {
+left: 200px;
+}
+
+</style>
+
+
+<script type="text/javascript">
+    function changeText(){
+        var str = window.location.href;
+        var arr = str.split("confirmdialog.html#");
+        var text = arr[arr.length - 1];
+        eval('var message="'+text+'" ;');
+        document.getElementById("messageContent").innerHTML  = decodeURI(text).replace(/\+/g, " ").replace(/%3f/g,"?");
+    }
+    function OnLoad(){
+        document.documentElement.style.webkitTouchCallout = "none";
+        document.documentElement.style.webkitUserSelect = "none";
+    }
+</script>
+
+</head>
+
+
+<body onload="changeText();OnLoad();" onselectstart="return false;" oncopy="return false;" oncut="return false;">
+	
+<div class="a_frame03">
+<b id="messageContent"></b>
+	<a href="native://action=localdialog&value=0&close" class="b_btn_07 a_btn_01">OK</a>
+</div>
+</body>
+</HTML>

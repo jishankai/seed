@@ -1,0 +1,1 @@
+ALTER TABLE  `playerStatus` ADD  `globalMessageTime` INT NULL AFTER  `snsContent`;

@@ -1,0 +1,1 @@
+UPDATE `mission` SET `checkClass`='SeedRandomMissionChecker', `endImage`='seed,-1' WHERE (`missionId`='1000');

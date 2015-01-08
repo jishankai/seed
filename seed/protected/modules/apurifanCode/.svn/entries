@@ -1,0 +1,83 @@
+10
+
+dir
+6355
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed/src/server/trunk/seed/protected/modules/apurifanCode
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed
+
+
+
+2012-09-18T08:15:43.481341Z
+6304
+ji.shankai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1a87db60-bfce-4acf-bc5d-6f2d8248f190
+
+commands
+dir
+
+models
+dir
+
+components
+dir
+
+controllers
+dir
+
+messages
+dir
+
+data
+dir
+
+ApurifanCodeModule.php
+file
+
+
+
+
+2012-09-21T11:06:30.000000Z
+c468cf17e127ff00a8c3251416ff5964
+2012-09-11T07:07:21.183781Z
+6237
+ji.shankai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3113
+
+views
+dir
+

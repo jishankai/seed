@@ -1,0 +1,1 @@
+UPDATE `mission` SET `endImage`='' WHERE (`missionId`='1000');

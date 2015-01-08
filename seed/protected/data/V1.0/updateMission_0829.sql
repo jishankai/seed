@@ -1,0 +1,1 @@
+UPDATE `mission` SET `expectedParams`='1056', `endImage`='item.1056' WHERE (`missionId`='39');

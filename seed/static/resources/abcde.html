@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<title>hahaha</title>
+<script type="text/javascript">
+    function changePic(){
+        var str = window.location.href;
+        var arr = str.split("#");
+        var name = arr[arr.length - 1];
+        document.getElementById("img").src = name + ".png";
+    }
+</script>
+</head>
+<body>
+<input type="button" value="have a try" onclick="changePic();">
+<img id="img" />
+</body>

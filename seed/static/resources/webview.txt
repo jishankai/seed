@@ -1,0 +1,20 @@
+{
+    "login/register"    : "2",
+    "garden/gardenList" : "1",
+    "map/index"         : "2",
+    "shop/index"        : "1",
+    "items/itemShow"    : "1",
+    "items/resShow"     : "1",
+    "friend/index"      : "1",
+    "catalog/index"     : "2",
+    "achieve/index"     : "2",
+    "seed/feedIndex"    : "2",
+    "seed/detail"       : "1",
+    "mission/info"      : "1",
+    "mission/list"      : "1",
+    "garden/fosterSeed" : "1",
+    "garden/getReward"  : "1",
+    "share/PhotoShow"   : "1",
+    "player/setting"    : "2",
+    "event/index"       : "2"
+}

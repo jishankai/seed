@@ -1,0 +1,9 @@
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='body,10' WHERE (`title`='AchieveTitle_011');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='body,20' WHERE (`title`='AchieveTitle_012');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='body,30' WHERE (`title`='AchieveTitle_013');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='head,10' WHERE (`title`='AchieveTitle_014');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='head,20' WHERE (`title`='AchieveTitle_015');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='head,30' WHERE (`title`='AchieveTitle_016');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='deco,10' WHERE (`title`='AchieveTitle_017');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='deco,20' WHERE (`title`='AchieveTitle_018');
+UPDATE `achievement` SET `event`='87', `checkClass`='CatalogUnlockAchieveChecker', `expectedParams`='deco,30' WHERE (`title`='AchieveTitle_019');

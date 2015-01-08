@@ -1,0 +1,10 @@
+ALTER TABLE  `achievementRecord` ADD INDEX (  `playerId` );
+ALTER TABLE  `missionRecord` ADD INDEX (  `playerId` );
+ALTER TABLE  `mail` ADD INDEX (  `playerId` );
+ALTER TABLE  `missionHistory` ADD INDEX (  `playerId` );
+ALTER TABLE  `playerPoint` ADD INDEX (  `playerId` );
+ALTER TABLE  `loginRewardLog` ADD INDEX (  `playerId` );
+ALTER TABLE  `mailHistory` ADD PRIMARY KEY(`mailId`);
+ALTER TABLE  `mailHistory` ADD INDEX (  `playerId` );
+ALTER TABLE  `mailQueue` ADD INDEX (  `playerId` );
+ALTER TABLE  `seed` ADD INDEX (  `playerId` );

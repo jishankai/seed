@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS famitsuCode(
+    id          INT UNSIGNED    NOT NULL    AUTO_INCREMENT,
+    code        CHAR(16)        NOT NULL,
+    userId      INT UNSIGNED,
+    createTime  INT UNSIGNED    NOT NULL,
+    updateTime  TIMESTAMP       NOT NULL    DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    deleteFlag  TINYINT         NOT NULL    DEFAULT 0,
+    PRIMARY KEY (id),
+    UNIQUE KEY (code)
+)ENGINE=INNODB CHARACTER SET = utf8 COLLATE = utf8_bin;

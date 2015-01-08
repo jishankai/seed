@@ -1,0 +1,18 @@
+{
+    "Japanese" : {
+        "404" : "画面が存在しません",
+        "408" : "タイムアウト",
+        "500" : "サーバーエラー"
+    },
+    "Chinese" : {
+    	"404" : "找不到该页",
+    	"408" : "读取页面超时，请检查网络或稍后再试",
+    	"500" : "服务器发生错误"
+    },
+    "English" : {
+    	"404" : "Page not found.",
+    	"408" : "Request timeout, please check network or try again later.",
+    	"500" : "Internal server error."
+    }
+
+}

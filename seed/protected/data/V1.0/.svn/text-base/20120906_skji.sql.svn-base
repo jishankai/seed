@@ -1,0 +1,1 @@
+ALTER TABLE `famitsuCode` DROP INDEX `userId`;

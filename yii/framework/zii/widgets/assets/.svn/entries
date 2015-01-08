@@ -1,0 +1,37 @@
+10
+
+dir
+6355
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed/src/server/trunk/yii/framework/zii/widgets/assets
+svn+ssh://ji.shankai@192.168.1.60/var/svnroot/seed
+
+
+
+2012-02-08T09:28:12.459547Z
+234
+zhao.he
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1a87db60-bfce-4acf-bc5d-6f2d8248f190
+
+gridview
+dir
+
+listview
+dir
+
+detailview
+dir
+

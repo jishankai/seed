@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>たねっこいきもの</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/seed.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/iepng.js"></script>
+
+
+
+</head>
+ <script type="text/javascript">pngHandler.init();</script>
+<body>
+	<div class="con_body">
+    	<a class="cloud" href="mailto:tanekko_support@sh.adways.net"></a>
+        <img class="iphone" src="image/seed_11.png" alt=""/>
+        <img class="spirit" src="image/seed_10.png" alt=""/>
+        <img class="text" src="image/seed_09.png" alt=""/>
+        <div class="content">
+        	<img src="image/con_01.png" alt=""/><img src="image/con_02.png" alt=""/><img src="image/con_03.png" alt=""/><img src="image/con_04.png" alt=""/><img src="image/con_05.png" alt=""/><img src="image/con_06.png" alt=""/><img src="image/con_07.png" alt=""/><img src="image/con_08.png" alt=""/><img src="image/con_09.png" alt=""/>
+            <span class="title"></span>
+            <div class="tx01">
+            	<b>以下ＵＲＬまたはアイコンから製品ページにリンクします。</b>
+                <a href="http://itunes.apple.com/jp/app/id529451120">http://itunes.apple.com/jp/app/id529451120</a>
+                <a href="http://itunes.apple.com/jp/app/id529451120"><img src="image/seed_13.png" alt=""/> </a>
+                <a href="https://twitter.com/search/%23tanekko"><span>#tanekko   たねっこいきもの</span> </a>
+            </div>
+            
+          <div class="message">
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'search',
+				  search: 'tanekko',
+				  interval: 30000,
+				  title: '',
+				  subject: '',
+				  width: 'auto',
+				  height: 280,
+				  theme: {
+				    shell: {
+				      color: '#ffffff'
+				    },
+				    tweets: {
+				      color: '#444444',
+				      links: '#d6a922'
+				    }
+				  },
+				  features: {
+				    scrollbar: false,
+				    loop: true,
+				    live: true,
+				    behavior: 'default'
+				  }
+				}).render().start();
+				</script>
+				
+            </div>
+            
+            <div class="a_con">
+            	<a href="https://twitter.com"><img src="image/seed_14.png" alt=""/></a>
+                <a class="in" href="https://twitter.com/search/%23tanekko">Join the conversation</a>
+                <!--<div class="fr">
+                    <iframe class="one" scrolling="no" frameborder="0" allowTransparency="true"src="http://plugins.mixi.jp/favorite.pl?href=http%3A%2F%2Fd.kuai.bz%2Fhtml%2Fsupport.html&service_key=7211d004f60e5f79b70f01b28deaa07cc1ae19ee&show_faces=true&width=270"></iframe>
+                    
+                    <a href="http://b.hatena.ne.jp/entry/http://d.kuai.bz/html/support.html" class="hatena-bookmark-button" data-hatena-bookmark-title="カイブツクロニクル" data-hatena-bookmark-layout="vertical" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+					<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+	                <iframe class="two" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fd.kuai.bz%2Fhtml%2Fsupport.html&amp;layout=box_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:80px;" allowTransparency="true">
+                    </iframe>
+                </div>-->
+               
+            </div>
+            
+            <div class="con_img_block ">
+            	<div class="con_img">
+					<ul>
+						<li><img src="image/1.jpg" alt=""/></li>
+						<li><img src="image/2.jpg" alt=""/></li>
+						<li><img src="image/3.jpg" alt=""/></li>
+						<li><img src="image/4.jpg" alt=""/></li>
+						<li><img src="image/5.jpg" alt=""/></li>
+					</ul>
+                </div>
+				<i class="ico_left"></i>
+				<i class="ico_right"></i> 
+			</div>
+        </div>
+	</div>
+    <div class="footer">Copyright (C) Adways Technology Limited All Rights Reserved.</div>
+    <!--主题内容-->
+</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		var $prev = $(".ico_left"),
+			$next = $(".ico_right"),
+			$img  = $(".con_img ul");
+
+		var $clickNum = 0;
+
+		$prev.click(function(){
+			if($clickNum > 0){
+				$clickNum--;
+				$img.stop().animate({
+					left:"-380"*$clickNum+"px"
+				}, 1000);
+			}
+		});
+
+		$next.click(function(){
+			if($clickNum < 3){
+				$clickNum++;
+				$img.stop().animate({
+					left:"-380"*$clickNum+"px"
+				}, 1000);
+			}
+		});
+
+	});
+</script>
